@@ -1,0 +1,68 @@
+{
+  "currentDate": "2026-08-25",
+  "score": {
+    "mobile": 0,
+    "cyber": 0,
+    "health": 0,
+    "food": 0,
+    "environment": 5
+  },
+  "mobileMinutes": 237,
+  "mobileConnected": true,
+  "alerts": [
+    {
+      "id": 1787664811730,
+      "type": "📱 Mobile Usage",
+      "message": "Your screen-on usage crossed the 30-minute daily target (228 minutes).",
+      "time": "25/8/2026, 7:03:31 pm"
+    }
+  ],
+  "history": [],
+  "streak": 0,
+  "cyberHistory": [],
+  "dailyQuestions": {
+    "health": [
+      "Did you choose a healthy snack today?",
+      "Did you do a relaxing activity before bedtime?",
+      "Did you maintain good posture while studying?",
+      "Did you keep your study area clean?",
+      "Did you avoid too many sugary drinks today?",
+      "Did you get 5–10 minutes of sunlight?",
+      "Did you eat a balanced breakfast?",
+      "Did you wake up at a healthy time today?",
+      "Did you keep your room reasonably clean today?",
+      "Did you spend some time away from screens today?",
+      "Did you spend some time reading or studying today?",
+      "Did you get enough sleep last night?",
+      "Did you keep your nails and hands clean?",
+      "Did you eat vegetables today?",
+      "Did you drink enough water today?"
+    ],
+    "food": [
+      "Did you take only the amount of food you needed?",
+      "Did you include a fiber-rich food today?",
+      "Did you keep food covered and protected from contamination?",
+      "Did you keep the dining area clean after eating?",
+      "Did you finish the food on your plate?",
+      "Did you eat a fruit or vegetable with a meal?",
+      "Did you choose seasonal or locally available food when practical?",
+      "Did you encourage someone else not to waste food?",
+      "Did you store edible leftovers safely?",
+      "Did you check the quantity before serving yourself?",
+      "Did you avoid wasting water while washing food?",
+      "Did you eat slowly enough to notice when you were full?"
+    ],
+    "environment": [
+      "Did you save water today?",
+      "Did you choose a reusable pen, cup or lunch box?",
+      "Did you reuse an item instead of throwing it away?",
+      "Did you avoid littering outdoors?",
+      "Did you keep your surroundings clean?",
+      "Did you separate recyclable waste?",
+      "Did you carry a reusable water bottle?",
+      "Did you switch off lights or fans when they were not needed?",
+      "Did you take part in a small eco-friendly activity?",
+      "Did you reuse a container for storage?"
+    ]
+  }
+}

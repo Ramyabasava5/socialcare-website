@@ -1,0 +1,1 @@
+Android resource note: use an Android Studio Empty Views Activity and copy MainActivity.kt + the manifest permission from this folder. The exact generated Gradle/theme files depend on the Android Studio version.
