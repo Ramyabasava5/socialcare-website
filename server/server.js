@@ -278,6 +278,6 @@ app.post('/api/cyber/analyse', (req, res) => {
 });
 
 app.get('/api/healthcheck', (req, res) => res.json({ ok: true, date: today() }));
-app.use(express.static(path.join(__dirname, '../client/dist')));
-app.get('*', (req, res) => res.sendFile(path.join(__dirname, '../client/dist/index.html')));
+app.use(express.static(path.join(__dirname, 'dist')));
+app.get('*', (req, res) => res.sendFile(path.join(__dirname, 'dist/index.html')));
 app.listen(PORT, () => console.log(`SocialCare API running on http://localhost:${PORT}`));
