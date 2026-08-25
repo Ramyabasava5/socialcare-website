@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: socialcare-website
+    runtime: node
+    buildCommand: npm install --prefix client && npm run build --prefix client && npm install --prefix server
+    startCommand: node server/server.js
+    healthCheckPath: /api/healthcheck

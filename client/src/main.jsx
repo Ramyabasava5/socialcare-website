@@ -3,7 +3,7 @@ import { pipeline } from '@huggingface/transformers';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
 
-const API = 'http://localhost:5000/api';
+const API = '/api';
 const modules = [
   ['mobile', '📱', 'Mobile Control', 'Device-wide screen-on tracking with a 30-minute daily target'],
   ['cyber', '🛡️', 'Cyber Awareness', 'Check a message and understand what it really means'],
