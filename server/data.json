@@ -1,68 +1,296 @@
 {
-  "currentDate": "2026-08-25",
-  "score": {
-    "mobile": 0,
-    "cyber": 0,
-    "health": 0,
-    "food": 0,
-    "environment": 5
-  },
-  "mobileMinutes": 237,
-  "mobileConnected": true,
-  "alerts": [
+  "users": [
     {
-      "id": 1787664811730,
-      "type": "📱 Mobile Usage",
-      "message": "Your screen-on usage crossed the 30-minute daily target (228 minutes).",
-      "time": "25/8/2026, 7:03:31 pm"
+      "id": "279daafa-e6d0-492f-9387-2e3cdae16324",
+      "name": "Devi",
+      "email": "devi123@gmail.com",
+      "passwordHash": "033ca78c867da8b399695125ec713bc9:132ec357328a319b516a966d03ac7837e8bd69f63c130750db93ecf5282efb2a05c0179529d0f63dd8df45d1954453efdf47d8c6c3d4b2c302ef9787aae5ed19",
+      "currentDate": "2026-08-26",
+      "score": {
+        "mobile": 20,
+        "cyber": 20,
+        "health": 20,
+        "food": 18,
+        "environment": 2
+      },
+      "mobileMinutes": 1,
+      "mobileConnected": true,
+      "alerts": [],
+      "history": [],
+      "streak": 0,
+      "cyberHistory": [
+        {
+          "id": 1787760363701,
+          "date": "2026-08-26",
+          "level": "LOW",
+          "risk": 0,
+          "verdict": "✅ NO STRONG SPAM INDICATORS"
+        }
+      ],
+      "dailyQuestions": {
+        "health": [
+          "Did you spend some time reading or studying today?",
+          "Did you brush your teeth twice today?",
+          "Did you eat vegetables today?",
+          "Did you avoid skipping a main meal?",
+          "Did you avoid excessive junk food today?",
+          "Did you maintain good posture while studying?",
+          "Did you take a bath today?",
+          "Did you get 5–10 minutes of sunlight?",
+          "Did you practice good cough and sneeze hygiene?",
+          "Did you take a short break after long screen use?",
+          "Did you wash your face after outdoor activities?",
+          "Did you drink enough water today?",
+          "Did you do at least 15 minutes of physical activity?",
+          "Did you keep your room reasonably clean today?",
+          "Did you get enough sleep last night?"
+        ],
+        "food": [
+          "Did you avoid wasting water while washing food?",
+          "Did you avoid wasting food today?",
+          "Did you keep food covered and protected from contamination?",
+          "Did you avoid unnecessary food purchases?",
+          "Did you check the quantity before serving yourself?",
+          "Did you avoid wasting packaged snacks?",
+          "Did you include a fiber-rich food today?",
+          "Did you encourage someone else not to waste food?",
+          "Did you avoid throwing away edible food?",
+          "Did you avoid taking more food just because it was available?",
+          "Did you store edible leftovers safely?",
+          "Did you plan your meal before taking food?"
+        ],
+        "environment": [
+          "Did you pick up a small amount of litter safely?",
+          "Did you care for a plant or tree?",
+          "Did you put plastic waste in the correct bin?",
+          "Did you repair or reuse something instead of replacing it?",
+          "Did you avoid buying a plastic item you did not need?",
+          "Did you avoid unnecessary plastic packaging?",
+          "Did you avoid littering outdoors?",
+          "Did you avoid single-use plastic today?",
+          "Did you choose a reusable pen, cup or lunch box?",
+          "Did you save water today?"
+        ]
+      }
+    },
+    {
+      "id": "c01c1df1-4e88-4ca6-87c5-734cfc8c5ac6",
+      "name": "Bhargavi",
+      "email": "bhargavi51@gmail.com",
+      "passwordHash": "3793dd9b9f7ea69f4bd2768f894eee93:1ba557fcd8a8e8aaf399a0636b32a63067c6a81ac8baabc9eb30a8c9c0971af743053426dbb9c4ebaea71d47db0213e63070782968c5d5504fcf045fddbdff6f",
+      "currentDate": "2026-08-27",
+      "score": {
+        "mobile": 20,
+        "cyber": 20,
+        "health": 0,
+        "food": 0,
+        "environment": 0
+      },
+      "mobileMinutes": 14,
+      "mobileConnected": true,
+      "alerts": [
+        {
+          "id": 1787816793639,
+          "date": "2026-08-27",
+          "type": "🛡️ Cyber Awareness",
+          "message": "Possible suspicious message detected: HIGH risk (67/100).",
+          "time": "27/8/2026, 1:16:33 pm"
+        }
+      ],
+      "history": [],
+      "streak": 0,
+      "cyberHistory": [
+        {
+          "id": 1787816793639,
+          "date": "2026-08-27",
+          "level": "HIGH",
+          "risk": 67,
+          "verdict": "⚠️ POSSIBLE SPAM / PHISHING"
+        }
+      ],
+      "dailyQuestions": {
+        "health": [
+          "Did you practice good cough and sneeze hygiene?",
+          "Did you wake up at a healthy time today?",
+          "Did you spend some time reading or studying today?",
+          "Did you keep your nails and hands clean?",
+          "Did you eat a balanced breakfast?",
+          "Did you spend some time away from screens today?",
+          "Did you get enough sleep last night?",
+          "Did you get 5–10 minutes of sunlight?",
+          "Did you keep your room reasonably clean today?",
+          "Did you brush your teeth twice today?",
+          "Did you maintain good posture while studying?",
+          "Did you avoid too many sugary drinks today?",
+          "Did you include a protein-rich food today?",
+          "Did you choose a healthy snack today?",
+          "Did you keep your study area clean?"
+        ],
+        "food": [
+          "Did you take only the amount of food you needed?",
+          "Did you avoid throwing away edible food?",
+          "Did you check the quantity before serving yourself?",
+          "Did you keep food covered and protected from contamination?",
+          "Did you separate edible leftovers from unavoidable waste?",
+          "Did you eat slowly enough to notice when you were full?",
+          "Did you avoid wasting food today?",
+          "Did you share extra food with someone who needed it?",
+          "Did you eat a fruit or vegetable with a meal?",
+          "Did you use leftovers creatively instead of discarding them?",
+          "Did you plan your meal before taking food?",
+          "Did you encourage someone else not to waste food?"
+        ],
+        "environment": [
+          "Did you keep your surroundings clean?",
+          "Did you encourage a friend or family member to reduce plastic?",
+          "Did you avoid single-use plastic today?",
+          "Did you reuse a container for storage?",
+          "Did you use a reusable shopping bag?",
+          "Did you pick up a small amount of litter safely?",
+          "Did you reuse an item instead of throwing it away?",
+          "Did you switch off lights or fans when they were not needed?",
+          "Did you repair or reuse something instead of replacing it?",
+          "Did you care for a plant or tree?"
+        ]
+      }
+    },
+    {
+      "id": "1b7eae49-b1f2-444f-bdf3-668365f95323",
+      "name": "shanu",
+      "email": "shanu123@gmail.com",
+      "passwordHash": "c214b54cc7143b6ecb605219bb57af89:9aedb31017640d41ceb8d3cb2b0d880684e179b74cc0b16081c8a81352e23f8fce52c46f2fff2d95717b4e56e0223e02e5664019dcc4fea75684a853ae6df785",
+      "currentDate": "2026-08-27",
+      "score": {
+        "mobile": 20,
+        "cyber": 0,
+        "health": 0,
+        "food": 0,
+        "environment": 20
+      },
+      "mobileMinutes": 50,
+      "mobileConnected": true,
+      "alerts": [],
+      "history": [],
+      "streak": 0,
+      "cyberHistory": [],
+      "dailyQuestions": {
+        "health": [
+          "Did you practice good cough and sneeze hygiene?",
+          "Did you wake up at a healthy time today?",
+          "Did you spend some time reading or studying today?",
+          "Did you keep your nails and hands clean?",
+          "Did you eat a balanced breakfast?",
+          "Did you spend some time away from screens today?",
+          "Did you get enough sleep last night?",
+          "Did you get 5–10 minutes of sunlight?",
+          "Did you keep your room reasonably clean today?",
+          "Did you brush your teeth twice today?",
+          "Did you maintain good posture while studying?",
+          "Did you avoid too many sugary drinks today?",
+          "Did you include a protein-rich food today?",
+          "Did you choose a healthy snack today?",
+          "Did you keep your study area clean?"
+        ],
+        "food": [
+          "Did you take only the amount of food you needed?",
+          "Did you avoid throwing away edible food?",
+          "Did you check the quantity before serving yourself?",
+          "Did you keep food covered and protected from contamination?",
+          "Did you separate edible leftovers from unavoidable waste?",
+          "Did you eat slowly enough to notice when you were full?",
+          "Did you avoid wasting food today?",
+          "Did you share extra food with someone who needed it?",
+          "Did you eat a fruit or vegetable with a meal?",
+          "Did you use leftovers creatively instead of discarding them?",
+          "Did you plan your meal before taking food?",
+          "Did you encourage someone else not to waste food?"
+        ],
+        "environment": [
+          "Did you keep your surroundings clean?",
+          "Did you encourage a friend or family member to reduce plastic?",
+          "Did you avoid single-use plastic today?",
+          "Did you reuse a container for storage?",
+          "Did you use a reusable shopping bag?",
+          "Did you pick up a small amount of litter safely?",
+          "Did you reuse an item instead of throwing it away?",
+          "Did you switch off lights or fans when they were not needed?",
+          "Did you repair or reuse something instead of replacing it?",
+          "Did you care for a plant or tree?"
+        ]
+      }
+    },
+    {
+      "id": "fa8a6f10-a396-4c41-b467-73a50bbba152",
+      "name": "Ramya",
+      "email": "ramyabasava5@gmail.com",
+      "passwordHash": "198a1c967ac43f5aa0e729fd26d67e52:044e3de66fcf992bfadb763d5515c3f529f84de8116c6c3dc5f0ff82e960f96ee5a291de5bb6aa4a5efa0a5d181548a1bc800aba4fb18b8ea67d6659feb64ef0",
+      "currentDate": "2026-08-27",
+      "score": {
+        "mobile": 20,
+        "cyber": 20,
+        "health": 0,
+        "food": 0,
+        "environment": 5
+      },
+      "mobileMinutes": 52,
+      "mobileConnected": true,
+      "alerts": [],
+      "history": [],
+      "streak": 0,
+      "cyberHistory": [
+        {
+          "id": 1787827453783,
+          "date": "2026-08-27",
+          "level": "LOW",
+          "risk": 0,
+          "verdict": "✅ NO STRONG SPAM INDICATORS"
+        }
+      ],
+      "dailyQuestions": {
+        "health": [
+          "Did you practice good cough and sneeze hygiene?",
+          "Did you wake up at a healthy time today?",
+          "Did you spend some time reading or studying today?",
+          "Did you keep your nails and hands clean?",
+          "Did you eat a balanced breakfast?",
+          "Did you spend some time away from screens today?",
+          "Did you get enough sleep last night?",
+          "Did you get 5–10 minutes of sunlight?",
+          "Did you keep your room reasonably clean today?",
+          "Did you brush your teeth twice today?",
+          "Did you maintain good posture while studying?",
+          "Did you avoid too many sugary drinks today?",
+          "Did you include a protein-rich food today?",
+          "Did you choose a healthy snack today?",
+          "Did you keep your study area clean?"
+        ],
+        "food": [
+          "Did you take only the amount of food you needed?",
+          "Did you avoid throwing away edible food?",
+          "Did you check the quantity before serving yourself?",
+          "Did you keep food covered and protected from contamination?",
+          "Did you separate edible leftovers from unavoidable waste?",
+          "Did you eat slowly enough to notice when you were full?",
+          "Did you avoid wasting food today?",
+          "Did you share extra food with someone who needed it?",
+          "Did you eat a fruit or vegetable with a meal?",
+          "Did you use leftovers creatively instead of discarding them?",
+          "Did you plan your meal before taking food?",
+          "Did you encourage someone else not to waste food?"
+        ],
+        "environment": [
+          "Did you keep your surroundings clean?",
+          "Did you encourage a friend or family member to reduce plastic?",
+          "Did you avoid single-use plastic today?",
+          "Did you reuse a container for storage?",
+          "Did you use a reusable shopping bag?",
+          "Did you pick up a small amount of litter safely?",
+          "Did you reuse an item instead of throwing it away?",
+          "Did you switch off lights or fans when they were not needed?",
+          "Did you repair or reuse something instead of replacing it?",
+          "Did you care for a plant or tree?"
+        ]
+      }
     }
-  ],
-  "history": [],
-  "streak": 0,
-  "cyberHistory": [],
-  "dailyQuestions": {
-    "health": [
-      "Did you choose a healthy snack today?",
-      "Did you do a relaxing activity before bedtime?",
-      "Did you maintain good posture while studying?",
-      "Did you keep your study area clean?",
-      "Did you avoid too many sugary drinks today?",
-      "Did you get 5–10 minutes of sunlight?",
-      "Did you eat a balanced breakfast?",
-      "Did you wake up at a healthy time today?",
-      "Did you keep your room reasonably clean today?",
-      "Did you spend some time away from screens today?",
-      "Did you spend some time reading or studying today?",
-      "Did you get enough sleep last night?",
-      "Did you keep your nails and hands clean?",
-      "Did you eat vegetables today?",
-      "Did you drink enough water today?"
-    ],
-    "food": [
-      "Did you take only the amount of food you needed?",
-      "Did you include a fiber-rich food today?",
-      "Did you keep food covered and protected from contamination?",
-      "Did you keep the dining area clean after eating?",
-      "Did you finish the food on your plate?",
-      "Did you eat a fruit or vegetable with a meal?",
-      "Did you choose seasonal or locally available food when practical?",
-      "Did you encourage someone else not to waste food?",
-      "Did you store edible leftovers safely?",
-      "Did you check the quantity before serving yourself?",
-      "Did you avoid wasting water while washing food?",
-      "Did you eat slowly enough to notice when you were full?"
-    ],
-    "environment": [
-      "Did you save water today?",
-      "Did you choose a reusable pen, cup or lunch box?",
-      "Did you reuse an item instead of throwing it away?",
-      "Did you avoid littering outdoors?",
-      "Did you keep your surroundings clean?",
-      "Did you separate recyclable waste?",
-      "Did you carry a reusable water bottle?",
-      "Did you switch off lights or fans when they were not needed?",
-      "Did you take part in a small eco-friendly activity?",
-      "Did you reuse a container for storage?"
-    ]
-  }
+  ]
 }

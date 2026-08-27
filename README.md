@@ -1,52 +1,42 @@
-# SocialCare – Updated Browser Tracking + AI Plastic Reuse
+# SocialCare – Multi-User Student Responsibility Platform
 
-## What changed
+## Features
+- Student Register/Login with separate scores, alerts and history for every account.
+- Admin Dashboard with every student's total and five module scores.
+- Mobile Usage target: 60 minutes. Backend stores minutes; the UI converts minutes to hours when needed. Crossing 60 minutes loses the 20 mobile points and creates an alert.
+- Cyber message analyser with risk score, simple meaning and safety advice.
+- Daily changing Health, Food and Environment checklists.
+- Plastic photo reuse/craft suggestions using the browser Hugging Face model when available, with server-side/local fallback.
+- Browser Back navigation and logout.
 
-### Mobile Usage Control
-- No manual usage-minute input.
-- Tracking starts automatically when the SocialCare website opens.
-- Moving between Home, Mobile, Health, Food, Cyber and Environment does not reset the timer because the tracker lives in the top-level React app.
-- Today's browser-visible SocialCare session time is saved in `localStorage` and synced to the Express backend.
-- If the tab becomes hidden, the browser timer pauses and resumes when the user returns.
-- At 0 minutes the daily mobile score remains 0/20. Once real usage is recorded and the total is still within 30 minutes, it becomes 20/20. Above 30 minutes it becomes 0/20 and an alert is created.
-- Browser notifications are requested when the target is crossed.
-- **Limitation:** a normal website cannot read the full phone's screen-on time or usage of other apps. Device-wide tracking requires Android system access.
+## Run locally
+From the `socialcare` folder:
 
-### Plastic Reduction
-- Removed the item-name textbox.
-- Student uploads a photo only.
-- The browser uses the Hugging Face Transformers.js `Xenova/clip-vit-base-patch32` zero-shot image model to identify common plastic items directly from the uploaded photo.
-- No item-name textbox is required.
-- The detected item is sent to the backend, which returns item-specific craft/reuse ideas.
-- An optional server-side Hugging Face Inference API remains available, but the main browser AI path does not require an HF token.
-
-## Run
-
-### Install
 ```bash
 npm run install-all
 ```
 
-### Terminal 1
+Terminal 1:
 ```bash
 npm run server
 ```
 
-### Terminal 2
+Terminal 2:
 ```bash
 npm run client
 ```
 
-Open the Vite URL shown by Terminal 2.
+Open `http://localhost:5173`.
 
-## Hugging Face setup
+## Admin credentials
+Admin credentials are **not displayed in the student UI**. Put your own values in `server/.env`:
 
-1. Create a Hugging Face access token with Inference Providers permission.
-2. Copy `.env.example` to `.env` inside `server`.
-3. Put the token in:
 ```env
-HF_TOKEN=hf_your_token_here
+ADMIN_EMAIL=your-admin-email@example.com
+ADMIN_PASSWORD=your-private-password
 ```
-4. Restart the server.
 
-The API uses the Hugging Face Inference Providers image-classification task. See the official docs for the supported task and model examples.
+For a fresh local demo, if these variables are omitted the backend uses a demo fallback account. Change the values before sharing/deploying.
+
+## Important security note
+This project is designed as a college/demo application. For production deployment, use a real database, HTTPS, secure session/JWT storage, rate limiting and a managed secret store. Never commit `server/.env` or any real password/API token to GitHub.
