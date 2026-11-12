@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+build/
+.gradle/
+*.log
+server/data.json
